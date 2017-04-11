@@ -1,0 +1,9 @@
+<h1> 이곳을 글이 저장되는 곳입니다.</h1>
+
+<% @bidulgi1.each do |k|%> 
+ 메일 제목은:   <%= k.title %></br>
+ 보내는 내용은:   <%= k.content %></br>
+ </br>
+<% end %>
+<hr>
+<a href = "/">메인으로 가기</a>
